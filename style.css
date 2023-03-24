@@ -1,0 +1,66 @@
+.mainContainer{
+    width:800px;
+    border:1px solid black;
+    margin-left: 20%;
+    margin-top: 8%;
+    padding:10px 10px;
+}
+.subContainer{
+    background-color: skyblue;
+}
+.subContainer>h2{
+    text-align: center;
+}
+.calculatorBodyContainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.calculatorBodyLeft{
+    flex:60%;
+    background-color: white;
+    margin:10px 10px;
+    height:300px;
+}
+.calculatorBodyRight{
+    flex:40%;
+}
+.centerHeading{
+    text-align: center;
+    color:white;
+}
+.headingBackground{
+    background-color: black;
+    margin-top: 0px;
+}
+.calculatorBodyLeft>ul{
+    list-style: none;
+}
+.calculatorBodyLeft>ul>li{
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#gradeCalButton{
+    margin-left: 40%;
+    background-color: black;
+    color:white;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.calculatorBodyRight{
+    background-color: white;
+    margin:10px 10px;
+    height:300px;
+}
+.calculatorBodyRight>div{
+    width:100%;
+    height:25%;
+}
+.calculatorBodyRight>div>h3{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
